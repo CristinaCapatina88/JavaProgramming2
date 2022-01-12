@@ -1,4 +1,4 @@
-package day17_While_DoWhile.day20_Arrays;
+package day20_Arrays;
 
 import java.util.Scanner;
 

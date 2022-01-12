@@ -3,6 +3,8 @@ package practice01_05_2022;
 public class WrapperClassIntro {
     public static void main(String[] args) {
 
+
+
             byte b = 10;
             short s = 20;
             int i = 30;
@@ -78,4 +80,5 @@ public class WrapperClassIntro {
 
 
     }
+        public  String str="anything";
 }

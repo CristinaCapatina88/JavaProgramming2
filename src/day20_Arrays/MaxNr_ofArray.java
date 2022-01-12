@@ -1,4 +1,4 @@
-package day17_While_DoWhile.day20_Arrays;
+package day20_Arrays;
 
 public class MaxNr_ofArray {
     public static void main(String[] args) {
