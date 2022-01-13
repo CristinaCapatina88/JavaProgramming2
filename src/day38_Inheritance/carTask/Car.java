@@ -4,10 +4,34 @@ public class Car {
     public String brand;
     public String model;
     public int year;
-    public int price;
+    public double price;
     public String color;
+    public int miles;
 
+    public Car(String brand, String model, int year, double price, String color, int miles) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.price = price;
+        this.color = color;
+        this.miles = miles;
+    }
 
+    public  void  start(){//we cant create this method static because we will use instance variable inside the method
+        System.out.println(brand+model+"  starts ");
+    }
+    public  void  drive(){
+        System.out.println(brand+model+"  drives ");
+    }
 
-
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
+    }
 }
