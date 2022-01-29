@@ -95,7 +95,8 @@ specialChar.removeAll(digits);
                         [1, 2, 3, 4, 0, 0, 0, 0]
 
 
-3. Write a program that can extract the special characters, digits and letters from a string and stores them into separate ArrayLists of Characters
+3. Write a program that can extract the special characters,
+digits and letters from a string and stores them into separate ArrayLists of Characters
                 Ex:
                     str = "ABCD123$%#@&456EFG!"
 
